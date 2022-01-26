@@ -12,6 +12,8 @@
 		06765C82279F14040082C560 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06765C80279F14040082C560 /* CoreDataDemo.xcdatamodeld */; };
 		06765C84279F14050082C560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06765C83279F14050082C560 /* Assets.xcassets */; };
 		06765C87279F14050082C560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06765C85279F14050082C560 /* LaunchScreen.storyboard */; };
+		1D800D1627A067BF00E77E74 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D800D1527A067BF00E77E74 /* StorageManager.swift */; };
+		1D800D1827A06F6000E77E74 /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D800D1727A06F6000E77E74 /* TaskListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		06765C83279F14050082C560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06765C86279F14050082C560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06765C88279F14050082C560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D800D1527A067BF00E77E74 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		1D800D1727A06F6000E77E74 /* TaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				06765C77279F14040082C560 /* AppDelegate.swift */,
 				06765C7B279F14040082C560 /* TaskListViewController.swift */,
+				1D800D1727A06F6000E77E74 /* TaskListModel.swift */,
+				1D800D1527A067BF00E77E74 /* StorageManager.swift */,
 				06765C83279F14050082C560 /* Assets.xcassets */,
 				06765C85279F14050082C560 /* LaunchScreen.storyboard */,
 				06765C88279F14050082C560 /* Info.plist */,
@@ -134,9 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D800D1827A06F6000E77E74 /* TaskListModel.swift in Sources */,
 				06765C7C279F14040082C560 /* TaskListViewController.swift in Sources */,
 				06765C82279F14040082C560 /* CoreDataDemo.xcdatamodeld in Sources */,
 				06765C78279F14040082C560 /* AppDelegate.swift in Sources */,
+				1D800D1627A067BF00E77E74 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
